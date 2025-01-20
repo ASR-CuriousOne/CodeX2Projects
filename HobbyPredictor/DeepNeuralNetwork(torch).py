@@ -20,8 +20,8 @@ keyValuesForHobbies = {"Academics": [[1],[0],[0]],
 
 #DataLoading
 
-df_test = pd.read_csv("processed_test_data.csv")
-df_train = pd.read_csv("processed_training_data.csv")
+df_test = pd.read_csv("Data/processed_test_data.csv")
+df_train = pd.read_csv("Data/processed_training_data.csv")
 
 X_data,Y_data = [],[]
 
