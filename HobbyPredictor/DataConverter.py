@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-df_raw = pd.read_csv("Data/training_data.csv")
+df_raw = pd.read_csv("training_data.csv")
 
 df_processed = {}
 
@@ -25,4 +25,4 @@ df_processed["Predicted Hobby"] = df_raw["Predicted Hobby"]
 
 df_processed = pd.DataFrame(df_processed)
 
-df_processed.to_csv("Data/processed_training_data.csv",index=False)
+df_processed.to_csv("processed_training_data.csv",index=False)

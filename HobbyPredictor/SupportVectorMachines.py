@@ -3,8 +3,8 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 import numpy as np
 
-df_test = pd.read_csv("Data/processed_test_data.csv")
-df_train = pd.read_csv("Data/processed_training_data.csv")
+df_test = pd.read_csv("processed_test_data.csv")
+df_train = pd.read_csv("processed_training_data.csv")
 
 keyValuesForHobbies = {"Academics": [1],
                        "Arts":[0],
